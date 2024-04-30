@@ -1,0 +1,54 @@
+h1{
+    color: rgb(90, 80, 80);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+p, li{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#banner{
+    background-color: beige;
+}
+
+#nav{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 8px;
+    padding: 10px;
+}
+
+#nav a:hover{
+    background-color: black;
+}
+
+#footer{
+    background-color: #E7E9EB;
+    min-height: 50px;
+    text-align: center;
+}
+
+#footer a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 8px;
+}
+
+#main{
+    width: 960px;
+    margin: 0 auto;
+}
